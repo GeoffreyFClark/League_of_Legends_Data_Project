@@ -4,6 +4,9 @@ import discord
 import requests
 from bs4 import BeautifulSoup
 
+
+
+# Next 4 lines of code: Web-scraping Template
 # Define the URL to scrape
 url = "https://www.example.com"
 
@@ -18,6 +21,7 @@ heading = soup.find("h1")
 
 # Print the text content of the element
 print(heading.text)
+
 
 
 intents = discord.Intents().all()
