@@ -2,7 +2,7 @@ Placeholders for the RiotGames API Key and Discord Bot Token in this upload.
 
 # League_of_Legends_Data_Project
 Queries the RiotGames API to retrieve Data. Implemented a Discord bot for user interaction.
-Focuses on Match History Data from recent games (limited to 5 games as Discord has a 2000 character per message limit)
+Focuses on Match History Data from recent games
 
 TODO:
 
