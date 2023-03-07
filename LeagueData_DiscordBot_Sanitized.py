@@ -16,7 +16,7 @@ response = requests.get(url)
 # Parse the HTML content using Beautiful Soup
 soup = BeautifulSoup(response.content, "html.parser")
 
-# Find the element you want to scrape
+# Find the element(s) you want to scrape
 heading = soup.find("h1")
 
 # Use the text content of the element
