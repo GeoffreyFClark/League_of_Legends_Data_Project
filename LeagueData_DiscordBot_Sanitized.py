@@ -19,7 +19,7 @@ soup = BeautifulSoup(response.content, "html.parser")
 # Find the element(s) you want to scrape
 heading = soup.find("h1")
 
-# Use the text content of the element
+# Use the text content of the element(s)
 print(heading.text)
 
 
