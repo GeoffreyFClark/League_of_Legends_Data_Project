@@ -74,7 +74,7 @@ def get_match_history(match_id):
 
 
 @client.event
-async def on_message(message):
+async def on_message(message): # Format example: Discord_User_Message:$match history Zorian
     if message.author == client.user:
         return
     if message.content.startswith('$summoner'):
@@ -130,7 +130,6 @@ async def on_message(message):
                         await message.channel.send(f"Matches ago: {i}\nError: Missing Match Data")
         print(match_history)
         await message.channel.send(f"{summoner_name}'s Match History: \n\n{''.join(match_history)}")
-
     if message.content.startswith('$mh pings'):
         summoner_name = message.content[10:]
         summoner_data = get_summoner_data(summoner_name)
@@ -169,7 +168,6 @@ async def on_message(message):
                     except:
                         await message.channel.send(f"Matches ago: {i}\nError: Missing Match Data")
         await message.channel.send(f"{summoner_name}'s Match History Pings: \n\n{''.join(match_history)}")
-
     if message.content.startswith('$mh2'):
         summoner_name = message.content[5:]
         summoner_data = get_summoner_data(summoner_name)
