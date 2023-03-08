@@ -162,7 +162,7 @@ async def on_message(message): # Format example: Discord_User_Message:$match his
                         onMyWayPings = participant["onMyWayPings"]
                         pushPings = participant["pushPings"]
                         visionClearedPings = participant["visionClearedPings"]
-                        result_str = f"Matches ago: {i}\nChampion: {champion} Role: {role}\nKDA:{kills}/{deaths}/{assists} Win:{win} Champ Level:{champLevel}\nAllinPings:{allInPings} AssistMePings:{assistMePings} BaitPings:{baitPings}\nBasicPings:{basicPings} CommandPings:{commandPings} DangerPings:{dangerPings}\nEnemyMissingPings:{enemyMissingPings} EnemyVisionPings:{enemyVisionPings} GetBackPings:{getBackPings}\nHoldPings:{holdPings} NeedVisionPings:{needVisionPings}\nPushPings:{pushPings} OnMyWayPings:{onMyWayPings} VisionClearedPings:{visionClearedPings}"
+                        result_str = f"Matches ago: {i}\nChampion: {champion}\nKDA:{kills}/{deaths}/{assists} Win:{win} Champ Level:{champLevel}\nAllinPings:{allInPings} AssistMePings:{assistMePings} BaitPings:{baitPings}\nBasicPings:{basicPings} CommandPings:{commandPings} DangerPings:{dangerPings}\nEnemyMissingPings:{enemyMissingPings} EnemyVisionPings:{enemyVisionPings} GetBackPings:{getBackPings}\nHoldPings:{holdPings} NeedVisionPings:{needVisionPings}\nPushPings:{pushPings} OnMyWayPings:{onMyWayPings} VisionClearedPings:{visionClearedPings}"
                         match_history.append(result_str)
                         match_history.append("\n\n")
                     except:
