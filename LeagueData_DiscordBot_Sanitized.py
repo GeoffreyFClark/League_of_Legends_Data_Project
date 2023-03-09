@@ -5,7 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-
 # Next 4 lines of code: Web-scraping Template
 # Define the URL to scrape
 url = "https://www.example.com"
