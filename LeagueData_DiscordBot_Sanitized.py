@@ -8,25 +8,6 @@ from bs4 import BeautifulSoup
 API_KEY = ""
 # https://developer.riotgames.com/
 
-
-# Web-Scraping template ext 4 lines 
-# Define the URL to scrape
-url = "https://www.example.com"
-
-# Send a GET request to the URL
-response = requests.get(url)
-
-# Parse the HTML content using Beautiful Soup
-soup = BeautifulSoup(response.content, "html.parser")
-
-# Find the element you want to scrape
-heading = soup.find("h1")
-
-# Print the text content of the element
-print(heading.text)
-
-
-
 intents = discord.Intents().all()
 client = discord.Client(intents=intents)
 
