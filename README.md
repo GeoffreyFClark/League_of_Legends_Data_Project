@@ -10,4 +10,4 @@ TODO:
 
 - I'm also planning to add web-scraped data that isn't available in the RiotGames API.
 
-- Add databasae to save information that can be analyzed for trends etc.
+- Add database to save information that can be analyzed for trends etc.
