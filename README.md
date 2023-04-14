@@ -5,6 +5,7 @@ Queries the RiotGames API to retrieve Data. Implemented a Discord bot for user i
 Focuses on player data from recent games along with general info such as current rank.
 
 Example Image:
+
 ![image](https://user-images.githubusercontent.com/97141856/232135657-783ba2c0-54af-4e75-8623-99dbd45f3141.png)
 
 
